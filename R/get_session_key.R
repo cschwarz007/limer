@@ -3,7 +3,7 @@
 #' This function logs into the LimeSurvey API and provides an access session key.
 #' @param username LimeSurvey username. Defaults to value set in \code{options()}.
 #' @param password LimeSurvey password Defaults to value set in \code{options()}.
-#' @param plugn LimeSurvey Auth Plugin Defaults to value set in \code{options() - if no value set uses Authdb}.
+#' @param auth LimeSurvey Auth Plugin Defaults to value set in \code{options() - if no value set uses Authdb}.
 #' @return API token
 #' @import httr
 #' @export
